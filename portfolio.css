@@ -1,0 +1,137 @@
+@import url(//db.onlinewebfonts.com/c/0c95a6aa6313451a4f8d254b04ab245e?family=Monofonto);
+@import url(//db.onlinewebfonts.com/c/817b21bb81cb6e24b0b4dc9be3e65b7e?family=Computer+7);
+@font-face {font-family: "Monofonto"; src: url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.eot"); src: url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.woff") format("woff"), url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0c95a6aa6313451a4f8d254b04ab245e.svg#Monofonto") format("svg"); } 
+@font-face {font-family: "Computer 7"; src: url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.eot"); src: url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.woff") format("woff"), url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/817b21bb81cb6e24b0b4dc9be3e65b7e.svg#Computer 7") format("svg"); } 
+
+body{
+	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/442caed7-dcf5-4be6-a296-c1fe49b48ad9/d32g0hs-6b9ea8db-b035-4c0b-b7cc-c954763d53fa.jpg/v1/fill/w_1024,h_768,q_75,strp/carbon_by_xxmironexx_d32g0hs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NjgiLCJwYXRoIjoiXC9mXC80NDJjYWVkNy1kY2Y1LTRiZTYtYTI5Ni1jMWZlNDliNDhhZDlcL2QzMmcwaHMtNmI5ZWE4ZGItYjAzNS00YzBiLWI3Y2MtYzk1NDc2M2Q1M2ZhLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.cIFYm9xS6PanOGbYo7PM1oqJCtovoMcGKqzEdCO-dZU') ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100% 100%;
+}
+
+h1, nav{
+	font-family: "Monofonto";
+	color:white;
+}
+
+p, h2{
+	font-family: "Computer 7";
+	color:white;
+}
+
+a {
+  color: white;
+}
+
+a:visited{
+	color:gray;
+}
+
+a:hover{
+	color: white;
+	style:bold;
+}
+
+
+#topkek{
+	background-image: url('https://i.pinimg.com/originals/d4/02/d6/d402d650fd5aa58be87b6de5c87714b8.jpg') ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: fixed;
+	height:10%;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index:2;
+}
+
+.titre{
+	display:inline-block;
+	background-image: url('./312303.png');
+	background-size: contain;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px 20px 20px 20px;
+	border-style: groove;
+	border-color: gray;
+}
+
+#content{
+	display:flex;
+	margin-top: 10%;
+}
+#sidebar{
+	width:20%;
+	position: fixed;
+	overflow-x: hidden;
+	background-image: url('./312303.png') ;
+	background-size: content;
+	border-radius: 20px 20px 20px 20px;
+	border-style: groove;
+	border-color: gray;
+	
+}
+
+img.bcg{
+  min-height: 80%;
+  width: 80%;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  left: 20%;
+   z-index:0;
+   border-left: 3px groove gray;
+}
+#vraicontent{
+	margin-left: 20%;
+	width:80%;
+	z-index:1;
+}
+
+.ancre{
+  display: block;
+  height: 5%;
+  margin-top:-5%;
+  visibility: hidden;
+}
+
+.tablimg{
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-flow:column;
+  overflow: no-wrap;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  justify-content: center;
+}
+
+.img1 {
+  grid-column: 1;
+  grid-row: 1;
+  max-width:33%;
+}
+
+.img2 {
+  grid-column: 2;
+  grid-row: 1;
+  max-width:33%;
+}
+
+.img3 {
+  grid-column: 3;
+  grid-row: 1;
+  max-width:33%;
+}
+
+.img4 {
+  grid-column: 1;
+  grid-row: 2;
+  max-width:33%;
+}
+
+h1,h2{
+	text-align:center;
+}
